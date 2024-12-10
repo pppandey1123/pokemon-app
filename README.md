@@ -1,59 +1,50 @@
-# PokemonApp
+# Pokémon App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.0.
+A simple Angular application to display Pokémon information fetched from the [PokéAPI](https://pokeapi.co/). The app showcases a list of Pokémon, their details, and includes a feedback form using Angular's reactive forms.
 
-## Development server
+---
 
-To start a local development server, run:
+## Features
 
-```bash
-ng serve
-```
+- **Home Page**: A welcome page with a brief description of the app.
+- **Pokémon Data Page**:
+  - Displays a list of Pokémon with their names and images.
+  - Fetches data dynamically from the PokéAPI.
+  - Shows additional details such as Pokémon abilities and types.
+- **Feedback Page**:
+  - A feedback form to collect user input (Name, Email, and Message).
+  - Implements form validation using Angular's Reactive Forms.
+- **Responsive Design**: Optimized for desktop and mobile screens.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+## Technologies Used
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- **Angular 16**: For building the single-page application.
+- **Angular Router**: For client-side routing.
+- **Reactive Forms**: For creating the feedback form.
+- **HTTP Client**: For consuming the Pokémon API.
+- **CSS Framework**: (Optional: Bootstrap for styling).
+- **TypeScript**: For type-safe programming.
 
-```bash
-ng generate component component-name
-```
+---
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## API Reference
 
-```bash
-ng generate --help
-```
+### PokéAPI
+- **Base URL**: `https://pokeapi.co/api/v2`
+- **Endpoints**:
+  - `/pokemon?limit=20`: Fetches a list of Pokémon (first 20 by default).
+  - `/pokemon/{name}`: Fetches detailed information for a specific Pokémon.
 
-## Building
+---
 
-To build the project run:
+## Future Enhancements
 
-```bash
-ng build
-```
+- Add Pokémon search functionality.
+- Include a pagination feature for large datasets.
+- Implement a feature to mark Pokémon as favorites.
+- Create a Pokémon comparison page.
+- Enhance UI with animations and more detailed cards.
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Vercel: 
