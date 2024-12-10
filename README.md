@@ -47,4 +47,4 @@ A simple Angular application to display Pokémon information fetched from the [P
 - Create a Pokémon comparison page.
 - Enhance UI with animations and more detailed cards.
 
-## Vercel: 
+## Vercel: https://pokemon-app-taupe-sigma.vercel.app/
